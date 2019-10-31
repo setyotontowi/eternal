@@ -1,0 +1,198 @@
+@media (max-width: 576px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+body{
+	background-color: #3B4148;
+}
+
+.container-fluid{
+	margin: 0px;
+	padding: 0px;
+}
+
+section{
+	height: 100vh;
+	background-color:#343A40;
+	color: #fff;
+}
+.side.sidebar{
+	width: 5%;
+}
+
+
+.side.sidebar .list-group-item{
+	border:none;
+	border-radius: 0px; 
+	background: none;
+}
+
+.side.sidebar .list-group-item.logo{
+	border:none;
+}
+
+.side.content{
+	width: 100%;
+}
+.sidebar{
+	position: relative;
+	background-color:#495057;
+	width: 5%;
+	height: 100vh;
+}
+
+.main{
+	background-color: #3B4148;
+}
+.main header{
+
+}
+.main header h1{
+	font-size: 1em;
+}
+.main header h2{
+	font-size: 0.75em;
+	color: #adb5bd;
+}
+.main .season-title{
+
+}
+.main .season-title h3{
+	font-size: 2em;
+	color: #00ff8c;
+}
+.main .season-title p{
+	margin: 0px;
+	color: #adb5bd;
+}
+.main .season-title p span{
+	font-size: 0.75em;
+}
+
+.main .phrase-container{
+	max-height: 450px;
+	overflow-y: scroll;
+}
+
+.main .phrase .card:nth-child(1){
+	margin-top: 0px !important;
+	background-color: #495057;
+	color:#d6d6d6;
+}
+
+.main .phrase .card{
+	background-color: #43494e;
+	color:#898c92;
+}
+.main .phrase .btn{
+	position: absolute;
+	bottom: 30px;
+	right: 25px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	vertical-align: middle;
+	font-size: 2em;
+	font-family: serif;
+	padding: 0px;
+	cursor: pointer;
+	background-color: #00ff8c;
+	border: none;
+	color: #3B4148;
+}
+
+.main .phrase .btn:hover{
+	background-color: #00d273;
+	color: #3B4148;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, 
+.btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle{
+	background-color: #00b161;
+	color: #3B4148;
+}
+
+
+/*SCROLL BAR*/
+::-webkit-scrollbar{
+	width: 7px;
+}
+
+::-webkit-scrollbar-track{
+	background:#3B4148;
+}
+
+::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	background:#495057;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background:#495057;
+}
+
+/*CALENDAR TABLE*/
+
+.calendar-outer .table-bordered{
+	/*border: 5px solid #3B4148;*/
+	border: none;
+}
+.calendar-outer #calendar .table-bordered th{
+	border: none;
+	color: #fff;
+	text-align: center;
+}
+.calendar-outer #calendar .table-bordered td{
+	border: none;
+	color: #fff;
+	vertical-align: middle;
+	text-align: center;
+}
+.calendar-outer .calendar-desc{
+}
+.calendar-outer .calendar-desc .desc-header{
+	background: #3B4148;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 1em;
+	line-height: 75px;
+	height: 75px;
+}
+.calendar-outer .btn{
+	margin: 20px 0;
+	font-size: 0.75em;
+	background-color: #00ff8c;
+	border: none;
+	color: #3B4148;
+	font-weight:500;
+	line-height: 1.75;
+	cursor: pointer;
+}
+.calendar-outer .btn:hover{
+	background-color: #00d273;
+	color: #3B4148;
+}
+.calendar-outer select{
+	width: 60%;
+}
+.calendar-outer input{
+	width: 30%;
+	height: 30px;
+	background:#3B4148;
+	border: none;
+	color: #fff;
+}
+.calendar-outer  select{
+	background:#3B4148;
+	font-size: 1em;
+	border: none;
+	color: #fff;
+}
